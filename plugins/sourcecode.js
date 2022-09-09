@@ -6,7 +6,14 @@ let handler = async (m, { conn }) => {
     // Kalo ngeyel gk bakal gw up sc lgi.
     
     let txt = `
-sc?
+Error Not found 
+
+Error
+
+Error
+
+My Github :
+
 `
      conn.reply(m.chat, txt, m)
 }
@@ -15,5 +22,3 @@ handler.tags = ['info']
 handler.command = /^(sc(ript(bot)?)?|sourcecode)$/i
 
 module.exports = handler
-
-
