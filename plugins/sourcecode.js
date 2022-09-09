@@ -6,14 +6,7 @@ let handler = async (m, { conn }) => {
     // Kalo ngeyel gk bakal gw up sc lgi.
     
     let txt = `
-sc? awikwok amat
-
-
-
-
-
-
-
+sc?
 `
      conn.reply(m.chat, txt, m)
 }
