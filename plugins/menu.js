@@ -19,8 +19,8 @@ const defaultMenu = {
 │
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
-├ Github:
-├ %github
+├ Owner :
+├ wa.me/62887435006141
 └────
 %readmore`.trim(),
   header: '┌─〔 %category 〕',
@@ -261,7 +261,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       maxexp: xp,
       totalexp: exp,
       xp4levelup: max - exp <= 0 ? `Siap untuk *${_p}levelup*` : `${max - exp} XP lagi untuk levelup`,
-      github: package.homepage ? package.homepage.url || package.homepage : '[unknown github url]',
       level, limit, name, umur, money, age, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
       readmore: readMore
     }
