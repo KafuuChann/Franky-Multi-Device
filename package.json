@@ -1,5 +1,5 @@
 {
-    "name": "Family-MD",
+    "name": "Franky-Multi-Device",
     "version": "2.4.0",
     "description": "Simple Bot WhatsApp with Baileys Multi Device",
     "depecrated": false,
@@ -29,9 +29,9 @@
         "stikerin",
         "wabot-aq"
     ],
-    "homepage": "https://github.com/MaFdeveloper/family-md",
+    "homepage": "https://github.com/KafuuChann/Franky-Multi-Device",
     "author": {
-        "name": "MaF Developer"
+        "name": "KafuuChann"
     },
     "repository": {
         "type": "git",
