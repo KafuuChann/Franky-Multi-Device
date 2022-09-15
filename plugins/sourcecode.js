@@ -6,14 +6,7 @@ let handler = async (m, { conn }) => {
     // Kalo ngeyel gk bakal gw up sc lgi.
     
     let txt = `
-Error Not found 
-
-Error
-
-Error
-
-My Github :
-
+Base DikaArtnt/hisoka-morou
 `
      conn.reply(m.chat, txt, m)
 }
